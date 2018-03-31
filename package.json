@@ -1,0 +1,22 @@
+{
+  "name": "cu-hacking-2018-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weebian/Cu-hacking-2018-frontend.git"
+  },
+  "author": "Hoang Bui & Brannon Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Weebian/Cu-hacking-2018-frontend/issues"
+  },
+  "homepage": "https://github.com/Weebian/Cu-hacking-2018-frontend#readme",
+  "dependencies": {
+    "electron": "^1.8.4"
+  }
+}
