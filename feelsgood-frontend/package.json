@@ -1,0 +1,14 @@
+{
+  "name": "feelsgood-frontend",
+  "version": "1.0.0",
+  "description": "front end for feelsgood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hoang Bui",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
