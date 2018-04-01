@@ -61,7 +61,7 @@ ipcMain.on('item:add', function(e, item){
 const mainMenuTemplate =  [
   // Each object is a dropdown
   {
-    label: 'File',
+    label: 'Option',
     submenu:[
       {
         label:'Add Item',
