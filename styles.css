@@ -1,0 +1,20 @@
+body{
+    background-color: #cf4af3;
+}
+body:hover{
+    -webkit-transition: background-colour 500ms linear;
+    -ms-transition: background-colour 780ms linear;
+    transition: background-colour 200ms linear;
+}
+h1{
+    colour: black;
+    text-align: left;
+}
+title{
+    colour: 
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}

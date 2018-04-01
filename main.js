@@ -34,9 +34,37 @@ app.on('ready', function(){
 const mainMenuTemplate =  [
   // Each object is a dropdown
   {
-    label: 'Option',
-    submenu:[
+    label: 'Themes',
+    submenu: [
       {
+        label: 'Default',
+        accelerator:process.platform == 'darwin' ? 'Command+0' : 'Ctrl+0',
+        click(){
+          //app.(); CHANGE THEME 0 HERE 
+        }
+      },
+      {
+        label: 'Vapourwave',
+        accelerator:process.platform == 'darwin' ? 'Command+1' : 'Ctrl+1',
+        click(){
+          //app.(); CHANGE THEME 1 HERE
+        }
+      },
+      {
+        label: 'Cozy Breeze',
+        accelerator:process.platform == 'darwin' ? 'Command+2' : 'Ctrl+2',
+        click(){
+          //app.(); CHANGE THEME 2 HERE 
+        }
+      },
+      {
+        label: 'Office',
+        accelerator:process.platform == 'darwin' ? 'Command+3' : 'Ctrl+3',
+        click(){
+          //app.(); CHANGE THEME 3 HERE 
+        }
+      },
+    {
         label: 'Quit',
         accelerator:process.platform == 'darwin' ? 'Command+Q' : 'Ctrl+Q',
         click(){
