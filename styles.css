@@ -11,6 +11,7 @@
   .item1{
     grid-column-start: 1;
     grid-column-end: 4;
+    font-size: 20px;
   }
 
   .item2{
@@ -34,7 +35,7 @@
 body{
     color: white;
     text-align: center; 
-    font-size: 30px;
+    font-size: 50px;
 }
 
 p {
