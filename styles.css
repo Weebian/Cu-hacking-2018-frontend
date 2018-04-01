@@ -1,20 +1,43 @@
-body{
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+  }
+
+  .item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .item2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+@-webkit-keyframes flicker {  
+    0% { background-color:#cf4af3; }
+    50% { background-color:#87CEFA; }
+    51% { background-color:#32CD32; }
+    100% { background-color:#FF1493; }
+}
+
+.grid-container{
     background-color: #cf4af3;
+    -webkit-animation-name: flicker;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2000ms; 
 }
-body:hover{
-    -webkit-transition: background-colour 500ms linear;
-    -ms-transition: background-colour 780ms linear;
-    transition: background-colour 200ms linear;
-}
-h1{
-    colour: black;
-    text-align: left;
-}
-title{
-    colour: 
+body{
+    color: white;
+    text-align: center; 
+    font-size: 30px;
 }
 
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    
 }
